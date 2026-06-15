@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Revert</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <h1>Git Revert</h1>
+
+      <p class="description">
+        Git Revert creates a new commit that undoes changes from a previous
+        commit without rewriting history.
+      </p>
+
+      <div class="card">
+        <h2>Basic Command</h2>
+
+        <code>git revert commit-id</code>
+      </div>
+
+      <div class="card">
+        <h2>Example</h2>
+
+        <code>git revert a1b2c3d</code>
+      </div>
+
+      <div class="card">
+        <h2>When To Use</h2>
+
+        <ul>
+          <li>Undo a committed change</li>
+          <li>Keep project history safe</li>
+          <li>Best for shared repositories</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
